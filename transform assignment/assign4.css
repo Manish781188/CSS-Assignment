@@ -1,0 +1,31 @@
+#parent{
+    height:300px;
+    width: 300px;
+    position: relative;
+    transition: 4s;
+    margin: 30px auto;
+    transform-style:preserve-3d;
+}
+#parent:hover{
+    transform: rotateY(180deg);
+}
+body{
+ perspective: 2000px;
+}
+#childA{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    z-index: 2;
+    backface-visibility: hidden;
+
+}
+#childB{
+    height: 100%;
+    width: 100%;
+    background-color: chartreuse;
+    position: absolute;
+    z-index: 1;
+    transform: rotateY(180deg);
+}

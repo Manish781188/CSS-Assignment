@@ -1,0 +1,36 @@
+#parent{
+    height: 30px;
+    background-color: black;
+    padding: 15px;
+    -webkit-text-fill-color: aliceblue;
+display: flex;
+justify-content: space-between;
+    
+}
+
+.p{
+
+    display: flex;
+   height: 300px;
+}
+img{
+    height: 150px;
+}
+
+footer{
+    height: 30px;
+    background-color: black;
+    -webkit-text-fill-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+@media (min-width:300px) {
+    body{
+        background-color: aqua;
+    }
+    
+}
