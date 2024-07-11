@@ -1,0 +1,50 @@
+#welcome{
+    height: 100px;
+    width: 100vw;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+
+#one{
+    color: white;
+}
+#navbar{
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#nav{
+    height: 30px;
+    width: 300px;
+   
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+}
+.element{
+    color: azure;
+}
+#content{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 100vw;
+    position: relative;
+    top: 15px;
+}
+#foot{
+    color: beige;
+    padding: 5px;
+}

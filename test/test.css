@@ -1,0 +1,45 @@
+#welcome{
+    height: 120px;
+    width: 100vw;
+    background-color: rgb(24, 21, 21);
+    color: rgb(216, 211, 202);
+    display: flex;
+    justify-content: center;    
+}
+#navbar{
+    height: 50px;
+    width: 100vw;
+    background-color: dimgray;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+#nav{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    color: white;
+}
+#card_p{
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+#card_c{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    height: 401px;
+    width: 200px;
+    border: 1px solid black;
+   
+}
+button{
+    background-color: aqua;
+}
